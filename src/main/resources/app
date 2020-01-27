@@ -1,0 +1,13 @@
+server.port=8761
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+
+my.greeting=Hello
+app.name= My app
+app.description Welcome to ${app.name}
+
+db.host=192.16.0.2
+db.port=8232
+db.connection="https://conection.mysql.com/testdb
+
+management.endpoints.web.exposure.include=*
